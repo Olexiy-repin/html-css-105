@@ -1,0 +1,112 @@
+/* 
+  Універсальний селектор
+  Селектор тега (елемента)
+  Селектор id
+  Селектор класа
+  Селектор атрибута
+  Селектор нащадка
+  Дочірній селектор
+*/
+
+/* Універсальний селектор */
+/* * {
+  color: teal;
+} */
+
+/* Селектор тега (елемента) */
+/* h1 {
+  color: teal;
+}
+
+p {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+} */
+
+/* Селектор id */
+/* #title {
+  color: teal;
+}
+
+#description {
+  color: red;
+}
+
+#secondary-description {
+  color: red;
+} */
+
+/* Селектор класа */
+/* .page-title {
+  color: teal;
+}
+
+.description {
+  color: red;
+} */
+
+/* Селектор атрибута */
+/* [href="https://www.google.com/"]
+{
+  color: teal;
+} */
+
+/* Селектор нащадка */
+/* .menu-link {
+  font-family: sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.page-header .menu-link {
+  color: #000000;
+}
+
+.page-footer .menu-link {
+  color: #ffffff;
+}
+
+.page-footer {
+  background-color: #303030;
+} */
+
+/* Дочірній селектор */
+/* .item {
+  background-color: red;
+}
+
+.some-list > .item {
+  background-color: teal;
+} */
+
+/* 10 */
+/* .page-title {
+  color: yellowgreen;
+} */
+
+/* 100 */
+/* #title {
+  color: blueviolet;
+} */
+
+/* 11 */
+/* body .page-title {
+  color: red;
+} */
+
+/* 1 */
+/* h1 {
+  color: teal !important;
+} */
+
+body {
+  font-size: 30px;
+  color: teal;
+}
+
+/* .menu-link {
+  color: red;
+} */
