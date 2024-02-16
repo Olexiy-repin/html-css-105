@@ -18,7 +18,7 @@ ol {
 }
 
 .container {
-  width: 1200px;
+  width: 1168px;
   padding-left: 16px;
   padding-right: 16px;
   margin-left: auto;
@@ -41,15 +41,27 @@ ol {
 }
 
 .benefits-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: wrap;
+  align-content: stretch;
+
+  /* row-gap: 50px;
+  column-gap: 20px; */
+  gap: 50px 20px;
+
   border: 1px solid #000000;
 }
 
 .benefits-list-item {
-  width: 300px;
+  flex-basis: 308px;
   padding: 20px;
   border: 1px solid tomato;
 }
 
 .benefits-list-title {
+  font-size: 20px;
   margin-bottom: 20px;
 }

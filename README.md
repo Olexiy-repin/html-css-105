@@ -12,6 +12,7 @@
    - align-content (вирівнювання рядків по поперечній осі);
    - flex-grow (коефіцієнт зростання);
    - flex-shrink (коефіцієнт стиснення);
-   - flex-basis (початкова ширина);
+   - flex-basis (початкова ширина)
+     https://mastery.games/post/the-difference-between-width-and-flex-basis/;
    - order (порядок розташування елементів на головній осі);
    - align-self (вирівнювання елемента по поперечній осі);
