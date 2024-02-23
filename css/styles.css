@@ -118,12 +118,15 @@ body {
 /* =========== /Page Header styles =========== */
 
 /* =========== Hero Section styles =========== */
+.hero {
+  background-color: #303030;
+}
+
 .hero-container {
-  padding-top: 381px;
+  padding-top: 414px;
   padding-bottom: 40px;
   padding-left: 56px;
   padding-right: 56px;
-  background-color: #303030;
 }
 
 .main-title {
