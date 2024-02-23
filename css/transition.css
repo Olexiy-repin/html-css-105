@@ -17,10 +17,18 @@
   cursor: pointer;
   margin: 0 auto;
   color: #ffffff;
+
+  /* transition-property: background-color;
+  transition-duration: 2000ms;
+  transition-timing-function: linear;
+  transition-delay: 0ms; */
+  transition: background-color 500ms linear, color 1000ms linear;
+
   background-color: #2980b9;
 }
 
 .btn:hover,
 .btn:focus {
   background-color: #e74c3c;
+  color: teal;
 }
