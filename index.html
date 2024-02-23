@@ -21,10 +21,18 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="container">
+      <div class="container page-header-container">
         <nav class="page-nav">
           <a class="logo" href="./index.html">
-            <span class="text-italic">SIMPLY</span> CHOCOLATE
+            <span class="text-italic">SIMPLY</span>&nbsp;CHOCOLATE
+            <svg
+              class="logo-icon"
+              width="24"
+              height="24"
+              aria-label="simply chocolate logotype"
+            >
+              <use href="./images/icons/sprite.svg#icon-logo"></use>
+            </svg>
           </a>
           <ul class="menu">
             <li class="menu-item">
@@ -38,6 +46,32 @@
             </li>
           </ul>
         </nav>
+        <ul class="social-list">
+          <li class="social-list-item">
+            <a href="" class="social-list-link">
+              <svg
+                class="social-list-icon"
+                width="24"
+                height="24"
+                aria-label="instagram icon"
+              >
+                <use href="./images/icons/sprite.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-list-item">
+            <a href="" class="social-list-link">
+              <svg
+                class="social-list-icon"
+                width="24"
+                height="24"
+                aria-label="twitter icon"
+              >
+                <use href="./images/icons/sprite.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
     <main>
@@ -51,7 +85,19 @@
           <div class="hero-bottom-block">
             <button class="buy-now-btn" type="button">Buy now</button>
             <a class="how-made-link" href="#how-made">How it’s made</a>
-            <a class="scroll-down-link" href="#benefits">scroll down</a>
+            <a class="scroll-down-link" href="#benefits">
+              scroll down
+              <span class="scroll-down-icon-wrapper">
+                <svg
+                  class="scroll-down-icon"
+                  width="22"
+                  height="22"
+                  aria-label="scroll down link"
+                >
+                  <use href="./images/icons/sprite.svg#icon-scroll"></use>
+                </svg>
+              </span>
+            </a>
           </div>
         </div>
       </section>
@@ -61,6 +107,16 @@
           <h2 class="visually-hidden">Our benefits</h2>
           <ul class="benefits-list">
             <li class="benefits-list-item">
+              <div class="benefits-item-icon-wrapper">
+                <svg
+                  class="benefits-item-icon"
+                  width="32"
+                  height="32"
+                  aria-label="chocolate icon"
+                >
+                  <use href="./images/icons/sprite.svg#icon-chocolate"></use>
+                </svg>
+              </div>
               <h3 class="benefits-list-title">Unsurpassed taste</h3>
               <p class="benefits-list-text">
                 Crafted with the finest quality cocoa beans and a dedication to
@@ -70,6 +126,16 @@
               </p>
             </li>
             <li class="benefits-list-item">
+              <div class="benefits-item-icon-wrapper">
+                <svg
+                  class="benefits-item-icon"
+                  width="32"
+                  height="32"
+                  aria-label="coin icon"
+                >
+                  <use href="./images/icons/sprite.svg#icon-coin"></use>
+                </svg>
+              </div>
               <h3 class="benefits-list-title">Affordable price</h3>
               <p class="benefits-list-text">
                 Indulge in high-quality chocolate without breaking the bank with
@@ -80,6 +146,16 @@
               </p>
             </li>
             <li class="benefits-list-item">
+              <div class="benefits-item-icon-wrapper">
+                <svg
+                  class="benefits-item-icon"
+                  width="32"
+                  height="32"
+                  aria-label="chocolate spoon"
+                >
+                  <use href="./images/icons/sprite.svg#icon-spoon"></use>
+                </svg>
+              </div>
               <h3 class="benefits-list-title">Own production</h3>
               <p class="benefits-list-text">
                 We take pride in our own production process, ensuring that every
@@ -114,6 +190,29 @@
                 height="160"
               />
               <h3 class="ingredients-list-title">milk chocolate</h3>
+
+              <div class="ingredient-overlay">
+                <h3 class="ingredient-overlay-title">Milk chocolate</h3>
+                <ul class="ingredient-overlay-categories">
+                  <li
+                    class="ingredient-overlay-categoriy ingredient-overlay-categoriy-primary"
+                  >
+                    chocolate
+                  </li>
+                  <li
+                    class="ingredient-overlay-categoriy ingredient-overlay-categoriy-secondary"
+                  >
+                    the benefits
+                  </li>
+                </ul>
+                <p class="ingredient-overlay-text">
+                  Milk chocolate is a solid chocolate confectionery containing
+                  cocoa, sugar and milk. It is the most consumed type of
+                  chocolate. Chocolate was originally sold and consumed as a
+                  beverage in pre-Columbian times. Although four-fifths of all
+                  milk chocolate is sold in the United States and Europe.
+                </p>
+              </div>
             </li>
             <li class="ingredients-list-item">
               <img
@@ -124,6 +223,30 @@
                 height="160"
               />
               <h3 class="ingredients-list-title">milk</h3>
+
+              <div class="ingredient-overlay">
+                <h3 class="ingredient-overlay-title">milk</h3>
+                <ul class="ingredient-overlay-categories">
+                  <li
+                    class="ingredient-overlay-categoriy ingredient-overlay-categoriy-primary"
+                  >
+                    milk
+                  </li>
+                  <li
+                    class="ingredient-overlay-categoriy ingredient-overlay-categoriy-secondary"
+                  >
+                    the benefits
+                  </li>
+                </ul>
+                <p class="ingredient-overlay-text">
+                  Milk is a white liquid food produced by the mammary glands of
+                  mammals. It is the primary source of nutrition for young
+                  mammals (including breastfed human infants) before they are
+                  able to digest solid food.Early-lactation milk, which is
+                  called colostrum, contains antibodies that strengthen the
+                  immune system.
+                </p>
+              </div>
             </li>
             <li class="ingredients-list-item">
               <img
@@ -134,6 +257,30 @@
                 height="160"
               />
               <h3 class="ingredients-list-title">nuts</h3>
+
+              <div class="ingredient-overlay">
+                <h3 class="ingredient-overlay-title">nuts</h3>
+                <ul class="ingredient-overlay-categories">
+                  <li
+                    class="ingredient-overlay-categoriy ingredient-overlay-categoriy-primary"
+                  >
+                    nuts
+                  </li>
+                  <li
+                    class="ingredient-overlay-categoriy ingredient-overlay-categoriy-secondary"
+                  >
+                    the benefits
+                  </li>
+                </ul>
+                <p class="ingredient-overlay-text">
+                  Almonds, pistachios, and walnuts are some types of nuts that
+                  contain healthy nutrients. When eaten as part of a
+                  nutrient-dense diet, these 9 nuts may offer benefits such as
+                  reducing your risk of heart disease. They’re a good source of
+                  fiber, healthy fats, and plant protein. Plus, they’re great on
+                  their own.
+                </p>
+              </div>
             </li>
             <li class="ingredients-list-item">
               <img
@@ -144,6 +291,30 @@
                 height="160"
               />
               <h3 class="ingredients-list-title">semi - sweet chocolate</h3>
+
+              <div class="ingredient-overlay">
+                <h3 class="ingredient-overlay-title">semi - sweet chocolate</h3>
+                <ul class="ingredient-overlay-categories">
+                  <li
+                    class="ingredient-overlay-categoriy ingredient-overlay-categoriy-primary"
+                  >
+                    sweet chocolate
+                  </li>
+                  <li
+                    class="ingredient-overlay-categoriy ingredient-overlay-categoriy-secondary"
+                  >
+                    the benefits
+                  </li>
+                </ul>
+                <p class="ingredient-overlay-text">
+                  Semi-sweet chocolate has a cocoa solid content of 35 to 65%.
+                  One of the best ways to gain an understanding of this type of
+                  chocolate is to compare it to a different type of chocolate.
+                  Semisweet is darker than milk chocolate. In a taste
+                  comparison, it has a slightly bitter taste whereas milk
+                  chocolate is sweeter and more mellow.
+                </p>
+              </div>
             </li>
           </ul>
         </div>
@@ -195,7 +366,7 @@
       <!-- =========== Reviews Section =========== -->
       <section class="reviews" id="reviews">
         <div class="container">
-          <h2 class="section-title">
+          <h2 class="section-title reviews-title">
             <span class="accent-color">Chocolate</span> is loved
           </h2>
           <ul class="reviews-list list">
