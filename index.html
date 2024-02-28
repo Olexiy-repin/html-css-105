@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+
+  <body>
+    <form class="contact-form">
+      <label class="contact-form-field-label" for="user-name">Your name</label>
+      <input
+        class="contact-form-input"
+        type="text"
+        placeholder="Oleksii"
+        id="user-name"
+        name="user-firstname"
+        required
+        pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+        title="Oleksii"
+      />
+
+      <label class="contact-form-field-label" for="user-email"
+        >Your email</label
+      >
+      <input
+        class="contact-form-input"
+        type="email"
+        placeholder="test@gmail.com"
+        id="user-email"
+        name="user-email"
+        required
+      />
+
+      <label class="contact-form-field-label" for="user-phone"
+        >Your phone number</label
+      >
+      <input
+        class="contact-form-input"
+        type="tel"
+        placeholder="xxx-xxx-xx-xx"
+        id="user-phone"
+        name="user-phone"
+        required
+        pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+        title="xxx-xxx-xx-xx"
+      />
+
+      <fieldset class="contact-form-fieldset">
+        <legend class="contact-form-legend">Pizza size</legend>
+
+        <label for="pizza-size-s">s</label>
+        <input type="radio" name="pizza-size" id="pizza-size-s" value="s" />
+
+        <label for="pizza-size-m">m</label>
+        <input type="radio" name="pizza-size" id="pizza-size-m" value="m" />
+
+        <label for="pizza-size-l">l</label>
+        <input type="radio" name="pizza-size" id="pizza-size-l" value="l" />
+      </fieldset>
+
+      <fieldset class="contact-form-fieldset">
+        <legend class="contact-form-legend">Additional ingredients</legend>
+
+        <label>
+          Cheese
+          <input type="checkbox" name="additional-ingredient" value="cheese" />
+        </label>
+
+        <label>
+          Pepperoni
+          <input
+            type="checkbox"
+            name="additional-ingredient"
+            value="pepperoni"
+          />
+        </label>
+
+        <label>
+          Mushrooms
+          <input
+            type="checkbox"
+            name="additional-ingredient"
+            value="mushrooms"
+          />
+        </label>
+      </fieldset>
+
+      <textarea
+        class="contact-form-comment"
+        name="user-comment"
+        placeholder="Your comment"
+      ></textarea>
+
+      <label class="contact-form-city-wrapper">
+        Your city
+
+        <select name="user-city">
+          <optgroup label="Kyiv region">
+            <option value="kyiv">Kyiv</option>
+            <option value="irpin">Irpin</option>
+            <option value="bucha">Bucha</option>
+          </optgroup>
+
+          <optgroup label="Poltava region">
+            <option value="poltava">Poltava</option>
+            <option value="kremenchuk">Kremenchuk</option>
+            <option value="globino">Globino</option>
+          </optgroup>
+        </select>
+      </label>
+
+      <div class="contact-form-btn-wrapper">
+        <button class="contact-form-btn contact-form-btn-submit" type="submit">
+          Submit
+        </button>
+        <button class="contact-form-btn contact-form-btn-reset" type="reset">
+          Clear
+        </button>
+      </div>
+    </form>
+  </body>
+</html>
