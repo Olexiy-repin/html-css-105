@@ -1,0 +1,100 @@
+body {
+  background-color: teal;
+}
+
+/* ========== MIN-WIDTH & MAX-WIDTH ========== */
+/* 
+400px +
+*/
+/* @media (min-width: 400px) {
+  body {
+    background-color: blueviolet;
+  }
+} */
+
+/* 
+768px +
+*/
+/* @media (min-width: 768px) {
+  body {
+    background-color: yellowgreen;
+  }
+} */
+
+/* 
+0px - 1023px
+*/
+/* @media (max-width: 1023px) {
+  body {
+    background-color: yellowgreen;
+  }
+} */
+
+/* 
+0px - 767px
+*/
+/* @media (max-width: 767px) {
+  body {
+    background-color: blueviolet;
+  }
+} */
+
+/* ========== AND ========== */
+/* 
+768px + true
+0px - 1023px true
+*/
+
+/* 768px - 1023px */
+
+/* @media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    background-color: blueviolet;
+  }
+} */
+
+/* ========== OR ========== */
+/* 
+0px - 767px false
+1024px + false
+*/
+
+/* @media (max-width: 767px), (min-width: 1024px) {
+  body {
+    background-color: blueviolet;
+  }
+} */
+
+/* ========== TYPES ========== */
+/* 
+  all
+  screen 
+  print
+  speech
+*/
+
+/* @media only screen and (min-width: 768px) {
+  body {
+    background-color: blueviolet;
+  }
+} */
+
+/* @media print {
+  .menu,
+  .btn {
+    display: none;
+  }
+} */
+
+/* ========== ORIENTATION ========== */
+/* @media only screen and (orientation: portrait) {
+  body {
+    background-color: blueviolet;
+  }
+}
+
+@media only screen and (orientation: landscape) and (max-width: 767px) {
+  body {
+    background-color: yellowgreen;
+  }
+} */

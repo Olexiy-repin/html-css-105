@@ -1,0 +1,35 @@
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 5px;
+}
+
+body {
+  height: 100vh;
+}
+
+/* 
+1x - 96dpi
+2x - 192dpi
+3x - 288dpi
+*/
+
+.banner {
+  min-height: 600px;
+  background-image: url('../images/retina/car.jpg');
+  background-position: center top;
+  background-size: 960px 576px;
+  background-repeat: no-repeat;
+}
+
+.team-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.section {
+  padding: 50px 0;
+}
